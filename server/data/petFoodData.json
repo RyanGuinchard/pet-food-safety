@@ -1,0 +1,15 @@
+{
+    "pets": [
+      {
+        "id": 1,
+        "name": "Cat",
+        "foods": ["Fish", "Chicken", "Catnip"]
+      },
+      {
+        "id": 2,
+        "name": "Dog",
+        "foods": ["Beef", "Chicken", "Carrots"]
+      }
+    ]
+  }
+  
