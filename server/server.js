@@ -16,6 +16,15 @@ app.get('/api/pets', (req, res) => {
   });
   
 
+  app.get('/api/search', (req, res) => {
+    const query = req.query.q; // Get the search query from the request query parameter
+  
+    // Filter the data based on the search query
+    const results = petFoodData.pets.filter(pet => pet.name.toLowerCase().includes(query.toLowerCase()));
+  
+    res.json(results);
+  });
+
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });

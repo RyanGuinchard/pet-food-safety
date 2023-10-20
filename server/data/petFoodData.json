@@ -9,6 +9,11 @@
         "id": 2,
         "name": "Dog",
         "foods": ["Beef", "Chicken", "Carrots"]
+      },
+      {
+        "id": 3,
+        "name": "Rabbit",
+        "foods": ["Romaine Lettuce", "Timothy Hay"]
       }
     ]
   }
