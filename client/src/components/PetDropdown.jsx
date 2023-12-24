@@ -5,42 +5,39 @@ import Pets from "../data/pets.json";
 import FoodInput from './FoodInput';
 import FoodDisplay from './FoodDisplay';
 
-// Define the PetDropdown functional component
+// PetDropdown component for selecting a pet and displaying related information
 const PetDropdown = () => {
-  // State hooks to manage selected pet ID, pet names, and selected pet name
+  // State hooks for selected pet ID, pet names, and selected pet name
   const [selectedPetId, setSelectedPetId] = useState('');
   const [petNames, setPetNames] = useState([]);
   const [selectedPetName, setSelectedPetName] = useState('');
 
-  // useEffect to initialize pet names when the component mounts
+  // Initialize pet names when the component mounts
   useEffect(() => {
-    // Set pet names from imported data
     setPetNames(Pets.pets);
   }, []);
 
-  // useEffect to update selected pet name when selectedPetId or petNames change
+  // Update selected pet name when selectedPetId or petNames change
   useEffect(() => {
-    // Find selected pet name based on ID
     const selectedPet = petNames.find((pet) => pet.id === parseInt(selectedPetId, 10));
-    // Update selectedPetName with the found pet's name or an empty string if not found
     setSelectedPetName(selectedPet ? selectedPet.name : '');
   }, [selectedPetId, petNames]);
 
   // JSX rendering of the PetDropdown component
   return (
     <>
-      {/* Label for the dropdown */}
+      {/* Label and dropdown for selecting a pet */}
       <label htmlFor="Pet Name">Select a Pet:</label>
-      {/* Dropdown to select a pet */}
       <select value={selectedPetId} onChange={(e) => setSelectedPetId(e.target.value)}>
         <option value="">Select a pet</option>
-        {/* Map through petNames to generate dropdown options */}
+        {/* Generate dropdown options based on petNames */}
         {petNames.map((pet) => (
           <option key={pet.id} value={pet.id}>
             {pet.name}
           </option>
         ))}
       </select>
+      {/* Components for handling food input and display */}
       <FoodInput selectedPetId={selectedPetId} />
       <FoodDisplay selectedPetId={selectedPetId} />
     </>
