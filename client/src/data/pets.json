@@ -1,12 +1,17 @@
 {
-    "pets": [
-      {
-        "id": 1,
-        "name": "Dog",
-        "diet": "Omnivore",
-        "unsafeFoods": ["Chocolate", "Grapes", "Onions"],
-        "safeFoods": ["Chicken", "Carrots", "Apples"]
-      }
-    ]
-  }
-  
+  "pets": [
+    {
+      "id": 1,
+      "name": "Dog",
+      "diet": "Omnivore",
+      "unsafeFoods": ["chocolate", "grapes", "onions"],
+      "safeFoods": ["chicken", "carrots", "apples"]
+    },
+
+    {
+      "id": 2,
+      "name": "Cat"
+    }
+
+  ]
+}

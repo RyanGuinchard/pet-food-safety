@@ -1,10 +1,14 @@
-import './App.css';
-import Petlist from './components/Petlist'
+import React from "react";
+import "./App.css";
+import PetDropdown from "./components/PetDropdown";
 
 function App() {
   return (
     <>
-    <Petlist></Petlist>
+      <div className="container">
+        <h1>Safe Snacks For Special Pets</h1>
+        <PetDropdown/>
+      </div>
     </>
   );
 }
