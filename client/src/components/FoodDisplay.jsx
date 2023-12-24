@@ -16,9 +16,9 @@ const FoodDisplay = ({ selectedPetId, foodInput }) => {
   let result = '';
 
   if (safeFoods.includes(lowercaseInput)) {
-    result = `${foodInput} is safe for ${selectedPet.name}.`;
+    result = `${foodInput} is safe for ${selectedPet.name}s.`;
   } else if (unsafeFoods.includes(lowercaseInput)) {
-    result = `${foodInput} is not safe for ${selectedPet.name}.`;
+    result = `${foodInput} is not safe for ${selectedPet.name}s.`;
   } else {
     result = `No information available for ${foodInput}.`;
   }

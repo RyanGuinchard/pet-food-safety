@@ -4,14 +4,312 @@
       "id": 1,
       "name": "Dog",
       "diet": "Omnivore",
-      "unsafeFoods": ["chocolate", "grapes", "onions"],
-      "safeFoods": ["Chicken", "carrots", "apples"]
+      "unsafeFoods": [
+        "alcohol", "avocado", "caffeine", "chocolate", "grapes", "onions", "garlic", "leeks", 
+        "macadamia nuts", "raisins", "xylitol", "raw yeast dough", "raw eggs", "raw fish", "mushrooms",
+        "nutmeg", "chives", "corn on the cob", "peaches", "plums", "persimmons", "raw meat",
+        "high-fat foods", "salty snacks", "citrus fruits", "almonds", "walnuts", "hazelnuts", "pecans",
+        "cashews", "pistachios", "popcorn", "coconut", "pineapple", "honey", "raw potatoes", "milk",
+        "cheese", "grapefruit", "lemons", "limes", "green tomatoes", "hops", "alcohol-based foods",
+        "cherry pits", "apricot pits", "peach pits", "plum pits", "apple seeds", "pear seeds", "peach seeds",
+        "apricot seeds", "cherry seeds", "cyanide-containing seeds", "moldy foods", "yeast",
+        "alcohol-based foods"
+      ],
+      "safeFoods": [
+        "Chicken", "carrots", "apples", "blueberries", "peanut butter", "pumpkin", "sweet potatoes", 
+        "cooked eggs", "green beans", "salmon", "turkey", "cottage cheese", "cooked rice", "watermelon",
+        "strawberries", "cranberries", "pineapple", "honeydew melon", "pears", "peas", "green peas",
+        "cooked meats", "cooked fish", "cooked vegetables", "oats", "brown rice", "quinoa", "flaxseed",
+        "chia seeds", "sunflower seeds", "pumpkin seeds", "carob", "coconut oil", "yogurt", "blueberries",
+        "raspberries", "blackberries", "watermelon", "cantaloupe", "honeydew melon", "kiwi", "orange slices",
+        "banana", "mango", "pineapple chunks", "strawberries", "peanut butter", "turmeric", "ginger",
+        "peppermint", "parsley", "basil", "oregano", "thyme", "mint leaves", "dill", "cinnamon",
+        "broccoli", "peas", "carrots", "sweet potatoes", "green beans", "zucchini", "pumpkin", "celery",
+        "cucumber", "spinach", "kale", "brussels sprouts", "asparagus", "blueberries", "blackberries",
+        "raspberries", "strawberries", "apples", "pears", "watermelon", "cantaloupe", "honeydew melon",
+        "peaches", "plums", "nectarines", "mango", "kiwi", "papaya", "pineapple", "orange slices",
+        "banana", "coconut", "cooked quinoa", "cooked lentils", "cooked chickpeas", "cooked sweet potatoes",
+        "cooked carrots", "cooked green beans", "cooked peas", "cooked broccoli", "cooked spinach",
+        "cooked kale", "cooked zucchini", "cooked pumpkin", "cooked butternut squash", "cooked apples",
+        "cooked pears", "cooked berries", "cooked watermelon", "cooked cantaloupe", "cooked honeydew melon",
+        "cooked peaches", "cooked plums", "cooked nectarines", "cooked mango", "cooked kiwi"
+      ]
     },
-
     {
       "id": 2,
-      "name": "Cat"
+      "name": "Cat",
+      "diet": "Carnivore",
+      "unsafeFoods": [
+        "alcohol", "caffeine", "chocolate", "lilies", "onions", "garlic", "raw fish", "raw eggs",
+        "almonds", "alcohol", "grapes", "raisins", "xylitol", "milk and dairy products", "certain fish (e.g., tuna)", 
+        "bones", "large quantities of liver", "large quantities of organ meat", "tobacco", "artificial sweeteners",
+        "coffee", "tea", "alcohol-based foods", "alcohol-based extracts", "alcohol-based medications"
+      ],
+      "safeFoods": [
+        "Salmon", "chicken liver", "catnip", "broccoli", "tuna", "cooked chicken", "cooked turkey", "cooked beef",
+        "carrots", "blueberries", "pumpkin", "sweet potatoes", "green beans", "peas", "cooked eggs", "oatmeal",
+        "cottage cheese", "cooked fish", "cucumber", "zucchini", "spinach", "cheese", "whole grains",
+        "cooked quinoa", "cooked lentils", "cooked chickpeas", "cooked sweet potatoes", "cooked carrots",
+        "cooked green beans", "cooked peas", "cooked broccoli", "cooked spinach", "cooked kale", "cooked zucchini",
+        "cooked pumpkin", "cooked butternut squash", "cooked apples", "cooked pears", "cooked berries",
+        "cooked watermelon", "cooked cantaloupe", "cooked honeydew melon", "cooked peaches", "cooked plums",
+        "cooked nectarines", "cooked mango", "cooked kiwi"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Rabbit",
+      "diet": "Herbivore",
+      "unsafeFoods": [
+        "avocado", "iceberg lettuce", "cabbage", "grains", "beans", "rhubarb", "corn", "bread", 
+        "chocolate", "pasta", "meat", "dairy", "nuts", "seeds", "junk food", "sugar", "salt",
+        "processed foods", "toxic plants", "lawn chemicals", "insecticides", "pesticides",
+        "caffeine", "alcohol", "cereal", "crackers", "chips", "candy", "cookies", "pastries",
+        "sweets", "fried foods", "spicy foods", "processed foods", "avocado pits", "peach pits",
+        "plum pits", "apple seeds", "pear seeds", "peach seeds", "apricot seeds", "cherry seeds",
+        "cyanide-containing seeds", "moldy foods", "yeast"
+      ],
+      "safeFoods": [
+        "Carrots", "broccoli", "kale", "spinach", "apples", "romaine lettuce", "strawberries", "celery", 
+        "mint leaves", "basil", "cilantro", "dandelion leaves", "blueberries", "pear slices", "watermelon", 
+        "pineapple", "kiwi", "raspberries", "blackberries", "cilantro", "endive", "escarole",
+        "coconut", "papaya", "mango", "peaches", "plums", "nectarines", "cooked quinoa", "cooked lentils",
+        "cooked chickpeas", "cooked sweet potatoes", "cooked carrots", "cooked green beans", "cooked peas",
+        "cooked broccoli", "cooked spinach", "cooked kale", "cooked zucchini", "cooked pumpkin",
+        "cooked butternut squash", "cooked apples", "cooked pears", "cooked berries", "cooked watermelon",
+        "cooked cantaloupe", "cooked honeydew melon", "cooked peaches", "cooked plums", "cooked nectarines",
+        "cooked mango", "cooked kiwi"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Bird",
+      "diet": "Omnivore",
+      "unsafeFoods": [
+        "alcohol", "avocado", "caffeine", "chocolate", "onions", "mushrooms", "fruit pits", "high-sugar foods", 
+        "salty snacks", "fried foods", "certain fruits with seeds (e.g., apples)", "certain nuts (e.g., peanuts)",
+        "large quantities of dairy", "large quantities of sugary or salty foods", "alcohol-based foods",
+        "caffeinated beverages", "caffeinated foods", "chips", "crackers", "candy", "cookies", "pastries",
+        "sweets", "fried foods", "spicy foods", "processed foods", "alcohol-based extracts",
+        "alcohol-based medications"
+      ],
+      "safeFoods": [
+        "Seeds", "fruits", "leafy greens", "eggs", "cooked rice", "berries", "bell peppers", "pasta", 
+        "corn", "nuts (in moderation)", "cooked meats", "whole grains", "carrots", "broccoli", "asparagus",
+        "green beans", "peas", "cucumber", "zucchini", "spinach", "sweet potatoes",
+        "cooked quinoa", "cooked lentils", "cooked chickpeas", "cooked sweet potatoes", "cooked carrots",
+        "cooked green beans", "cooked peas", "cooked broccoli", "cooked spinach", "cooked kale", "cooked zucchini",
+        "cooked pumpkin", "cooked butternut squash", "cooked apples", "cooked pears", "cooked berries",
+        "cooked watermelon", "cooked cantaloupe", "cooked honeydew melon", "cooked peaches", "cooked plums",
+        "cooked nectarines", "cooked mango", "cooked kiwi"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Fish",
+      "diet": "Piscivore",
+      "unsafeFoods": [
+        "bread", "citrus fruits", "processed food", "spicy foods", "dairy", "raw meat", "high-fat food",
+        "chocolate", "caffeine", "onions", "garlic", "large quantities of human food", "large prey with sharp bones",
+        "large quantities of liver", "large quantities of organ meat", "meat-based cat or dog food",
+        "overfeeding", "underfeeding"
+      ],
+      "safeFoods": [
+        "Fish flakes", "bloodworms", "brine shrimp", "algae wafers", "lettuce", "daphnia", "mosquito larvae", 
+        "squid", "krill", "earthworms", "insects", "snails", "leafy vegetables", "shrimp", "crab", "clams", 
+        "mussels", "sea vegetables", "plankton", "spiralina", "blanched vegetables", "cuttlebone", "fish oil",
+        "micro pellets", "tubifex worms", "freeze-dried foods", "mealworms", "blackworms", "fruit flies",
+        "crickets", "honey bees", "beetle larvae", "earthworms", "zooplankton", "vegetables", "fruit"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Turtle",
+      "diet": "Omnivore",
+      "unsafeFoods": [
+        "avocado", "bread", "citrus fruits", "iceberg lettuce", "raw meat", "raw fish", "raw eggs", 
+        "chocolate", "caffeine", "onions", "garlic", "mushrooms", "canned or processed foods",
+        "toxic plants", "lawn chemicals", "insecticides", "pesticides", "large prey with sharp bones",
+        "large quantities of liver", "large quantities of organ meat", "meat-based cat or dog food",
+        "overfeeding", "underfeeding", "large prey items", "large bones", "meat with high fat content",
+        "turtle pellets", "beef", "pork", "chicken", "turkey", "lamb", "venison", "rabbit", "fish fillets",
+        "liver", "heart", "kidneys", "spleen", "lungs", "intestines", "stomach", "gizzards", "vertebrae"
+      ],
+      "safeFoods": [
+        "Worms", "insects", "leafy greens", "fish", "berries", "cucumber", "cooked chicken", "snails", 
+        "carrots", "squash", "apples", "bananas", "watermelon", "kiwi", "strawberries", "blueberries",
+        "mango", "peaches", "plums", "nectarines", "papaya", "green beans", "peas", "bell peppers", 
+        "pumpkin", "sweet potatoes", "corn", "zucchini", "spinach", "kale", "broccoli",
+        "micro pellets", "tubifex worms", "freeze-dried foods", "mealworms", "blackworms", "fruit flies",
+        "crickets", "honey bees", "beetle larvae", "earthworms", "zooplankton", "vegetables", "fruit"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Snake",
+      "diet": "Carnivore",
+      "unsafeFoods": [
+        "vegetables", "fruits", "grains", "insects with hard exoskeletons", "milk", "dairy", "sweets",
+        "cereal", "fruits with high sugar content", "raw eggs", "raw fish", "raw meat", "large prey items",
+        "large bones", "meat with high fat content", "large quantities of liver", "large quantities of organ meat",
+        "meat-based cat or dog food", "overfeeding", "underfeeding", "toxic plants", "lawn chemicals", "insecticides",
+        "pesticides"
+      ],
+      "safeFoods": [
+        "Rats", "mice", "chicks", "quail", "small rabbits", "thawed frozen rodents", "chicken", "turkey",
+        "quail eggs", "rabbit", "guinea pig", "hamster", "gerbil", "small birds", "fish fillets", "lizard",
+        "frog", "toad", "insects (e.g., crickets, mealworms, silkworms)", "frozen rodents (e.g., mice, rats, chicks)",
+        "fresh eggs", "fresh fish fillets", "frozen or thawed fruits (e.g., berries, mango, papaya)",
+        "frozen or thawed vegetables (e.g., peas, green beans, carrots)", "canned dog food (high-quality, low-fat)",
+        "high-quality snake diet pellets"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Iguana",
+      "diet": "Herbivore",
+      "unsafeFoods": [
+        "animal protein", "insects", "meat", "dairy", "high oxalate vegetables", "sweets", "nuts",
+        "seeds", "processed foods", "high-fat foods", "salty snacks", "caffeine", "alcohol", "cereal",
+        "grains", "legumes", "bread", "corn", "beet greens", "kale", "collard greens", "turnip greens",
+        "spinach", "mustard greens", "lettuce", "cabbage", "raw sweet potatoes", "raw carrots", "raw beets",
+        "raw broccoli", "raw cauliflower", "raw Brussels sprouts", "raw bell peppers", "raw asparagus",
+        "raw tomatoes", "raw zucchini", "raw squash", "raw cucumber", "raw radishes", "raw mushrooms",
+        "raw green beans", "raw peas", "raw corn", "raw onions", "raw garlic", "raw leeks", "raw chives",
+        "raw shallots", "raw scallions", "raw ginger", "raw turmeric", "raw radishes", "raw horseradish",
+        "raw fennel", "raw shallots", "raw chives", "raw garlic", "raw onions"
+      ],
+      "safeFoods": [
+        "Leafy greens", "collard greens", "kale", "bell peppers", "carrots", "mango", "papaya", "blueberries",
+        "blackberries", "raspberries", "strawberries", "cooked sweet potatoes", "cooked carrots", "cooked green beans",
+        "cooked peas", "cooked broccoli", "cooked spinach", "cooked kale", "cooked zucchini", "cooked pumpkin",
+        "cooked butternut squash", "cooked apples", "cooked pears", "cooked berries", "cooked watermelon",
+        "cooked cantaloupe", "cooked honeydew melon", "cooked peaches", "cooked plums", "cooked nectarines",
+        "cooked mango", "cooked kiwi", "cooked quinoa", "cooked lentils", "cooked chickpeas", "cooked brown rice",
+        "cooked wild rice", "cooked oats", "cooked barley", "cooked millet", "cooked amaranth", "cooked buckwheat",
+        "cooked spelt", "cooked teff", "cooked sorghum", "cooked fonio", "cooked black rice", "cooked red rice",
+        "cooked white rice", "cooked jasmine rice", "cooked basmati rice", "cooked sushi rice"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Horse",
+      "diet": "Herbivore",
+      "unsafeFoods": [
+        "chocolate", "caffeine", "onions", "garlic", "processed food", "sweets", "nuts", "seeds",
+        "bread", "pastries", "cereal", "grains", "corn", "oats", "barley", "wheat", "rye", "soy",
+        "alfalfa", "clover", "lupine", "yew", "bracken fern", "hoary alyssum", "foxtail", "lambsquarters",
+        "kochia", "johnsongrass", "oleander", "tansy ragwort", "locoweed", "Russian knapweed", "bracken fern",
+        "broom snakeweed", "yellow star thistle", "lye water", "alcohol", "caffeine", "sugar",
+        "large quantities of high-sugar fruits", "large quantities of high-sugar vegetables",
+        "large quantities of high-starch vegetables", "large quantities of high-starch fruits",
+        "large quantities of high-fat fruits", "large quantities of high-fat vegetables",
+        "large quantities of high-fat seeds", "large quantities of high-fat nuts", "large quantities of high-fat grains"
+      ],
+      "safeFoods": [
+        "Hay", "grass", "carrots", "apples", "oats", "barley", "beet pulp", "soaked hay cubes", "soaked alfalfa pellets",
+        "soaked grains", "soaked chaffhaye", "leafy greens", "celery", "cucumber", "zucchini", "pumpkin",
+        "watermelon rind", "strawberries", "blueberries", "blackberries", "raspberries", "cranberries",
+        "kiwi", "mango", "pears", "peaches", "plums", "nectarines", "pineapple", "papaya", "honeydew melon",
+        "cantaloupe", "carob", "beet greens", "chicory", "clover", "dandelion", "plantain", "yarrow", "basil",
+        "mint", "parsley", "rosemary", "thyme", "sage", "oat hay", "timothy hay", "orchard grass hay",
+        "brome hay", "alfalfa hay", "meadow hay", "borage", "calendula", "chamomile", "comfrey", "dill",
+        "echinacea", "fennel", "garlic", "ginger", "lavender", "lemon balm", "marjoram", "oats", "rose hips",
+        "rose petals", "safflower", "sunflower", "tarragon", "violet", "echinacea", "nettle", "yarrow", "lemon balm",
+        "dandelion", "comfrey", "garlic", "ginger", "plantain", "parsley", "rosemary", "thyme", "sage"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Ferret",
+      "diet": "Carnivore",
+      "unsafeFoods": [
+        "chocolate", "dairy", "sweets", "cereal", "fruits with high sugar content", "alcohol",
+        "caffeine", "sugary treats", "raw eggs", "raw fish", "raw meat", "high-carb and sugary foods",
+        "grains", "vegetables", "fruits", "nuts", "seeds", "legumes", "lentils", "soy", "corn", "peas",
+        "potatoes", "sweet potatoes", "carrots", "beans", "oats", "rice", "pasta", "bread", "cereal",
+        "processed foods", "ferret kibble with unhealthy additives", "high-sugar fruits", "high-fat meats",
+        "high-fat dairy", "frozen treats", "human snacks", "sugar substitutes", "artificial sweeteners",
+        "high-sugar or high-fat treats", "milk", "yogurt", "ice cream", "cheese"
+      ],
+      "safeFoods": [
+        "High-quality ferret kibble", "raw meat", "egg", "ferret-safe treats", "ferret-specific supplements",
+        "duck", "chicken", "turkey", "lamb", "beef", "organ meats (liver, kidney)", "ferretone",
+        "ferretvite", "ferret lax", "duck soup", "turkey baby food", "chicken baby food", "turkey giblets",
+        "chicken giblets", "chicken hearts", "turkey hearts", "beef liver", "duck eggs", "chicken eggs", "quail eggs",
+        "turkey eggs", "lamb", "venison", "rabbit", "fish fillets", "lizard", "frog", "toad", "insects (e.g., crickets, mealworms)"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Chinchilla",
+      "diet": "Herbivore",
+      "unsafeFoods": [
+        "sweets", "nuts", "seeds", "dairy", "processed foods", "caffeine", "alcohol", "cereal",
+        "grains", "bread", "chocolate", "fried foods", "high-sugar fruits", "high-fat fruits",
+        "high-fat vegetables", "high-sugar vegetables", "high-carb vegetables", "legumes", "lentils",
+        "beans", "peas", "potatoes", "sweet potatoes", "carrots", "corn", "oats", "rice", "pasta",
+        "high-sugar or high-fat treats", "sugar substitutes", "artificial sweeteners", "high-sugar fruits",
+        "high-fat meats", "high-fat dairy", "frozen treats", "human snacks", "sugar substitutes", "milk",
+        "yogurt", "ice cream", "cheese", "candy", "cookies", "pastries", "sweets", "fried foods",
+        "spicy foods", "processed foods", "alcohol-based extracts", "alcohol-based medications"
+      ],
+      "safeFoods": [
+        "Hay", "pellets", "fresh vegetables", "apples", "pears", "rose hips", "blueberries", "blackberries",
+        "raspberries", "strawberries", "papaya", "mango", "kiwi", "watermelon", "cantaloupe", "honeydew melon",
+        "peaches", "plums", "nectarines", "banana", "carrots", "bell peppers", "celery", "cucumber", "zucchini",
+        "pumpkin", "sweet potatoes", "spinach", "kale", "broccoli", "asparagus", "cilantro", "parsley", "basil",
+        "mint leaves", "dandelion greens", "endive", "escarole", "alfalfa hay", "timothy hay", "orchard grass hay",
+        "brome hay", "meadow hay", "straw", "oat hay", "chicory", "calendula", "chamomile", "comfrey", "dill", "echinacea",
+        "fennel", "garlic", "ginger", "lavender", "lemon balm", "marjoram", "oregano", "rose hips", "rose petals", "safflower",
+        "sunflower", "tarragon", "violet"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Gerbil",
+      "diet": "Omnivore",
+      "unsafeFoods": [
+        "citrus fruits", "onions", "garlic", "chocolate", "caffeine", "sweets", "nuts", "seeds", "fried foods",
+        "spicy foods", "processed foods", "alcohol", "cereal", "grains", "bread", "chips", "crackers", "candy",
+        "cookies", "pastries", "sweets", "fried foods", "alcohol-based extracts", "alcohol-based medications"
+      ],
+      "safeFoods": [
+        "High-quality gerbil food", "seeds", "nuts", "fresh vegetables", "mealworms", "fruits (in moderation)",
+        "vegetables (in moderation)", "insects (e.g., crickets, mealworms)", "hard-boiled eggs", "cooked meats",
+        "cooked fish", "cooked vegetables", "brown rice", "quinoa", "millet", "oats", "whole grains", "wheat germ",
+        "barley", "rye", "pumpkin seeds", "sunflower seeds", "flaxseed", "chia seeds", "vegetable oil", "coconut",
+        "peanut butter", "almonds", "walnuts", "cashews", "hazelnuts", "pecans", "cucumber", "carrots", "bell peppers",
+        "celery", "zucchini", "spinach", "kale", "broccoli", "asparagus", "blueberries", "blackberries", "raspberries",
+        "strawberries", "apples", "pears", "watermelon", "cantaloupe", "honeydew melon", "kiwi", "papaya", "banana", "mango"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Tortoise",
+      "diet": "Herbivore",
+      "unsafeFoods": [
+        "meat", "dairy", "sweets", "nuts", "seeds", "processed foods", "caffeine", "alcohol", "cereal",
+        "grains", "bread", "potatoes", "sweet potatoes", "carrots", "corn", "oats", "rice", "pasta",
+        "sugar substitutes", "artificial sweeteners", "high-sugar fruits", "high-fat fruits", "high-carb fruits",
+        "high-sugar vegetables", "high-fat vegetables", "high-carb vegetables", "legumes", "lentils", "beans", "peas",
+        "leafy greens (e.g., spinach, kale, lettuce, cabbage)", "fruit with seeds", "fruit pits", "avocado", "dandelions",
+        "clover", "columbine", "dogbane", "foxglove", "geranium", "hemlock", "hydrangea", "ivy", "jimsonweed", "laurel",
+        "leucothoe", "lupine", "milkweed", "mistletoe", "oleander", "pokeweed", "primrose", "rhubarb", "sweet pea",
+        "tansy", "thorn apple", "viburnum", "vinca", "wisteria", "yew"
+      ],
+      "safeFoods": [
+        "Hay", "grass", "leafy greens", "carrots", "bell peppers", "cucumber", "zucchini", "pumpkin",
+        "watermelon rind", "strawberries", "blueberries", "blackberries", "raspberries", "kiwi", "mango",
+        "peaches", "plums", "nectarines", "pineapple", "papaya", "honeydew melon", "cantaloupe", "bananas",
+        "apples", "pears", "grapes", "figs", "prickly pear cactus", "hibiscus flowers", "rose petals",
+        "dandelion flowers", "dandelion leaves", "chicory", "endive", "escarole", "bok choy", "collard greens",
+        "turnip greens", "mustard greens", "kale", "parsley", "cilantro", "basil", "mint", "thyme", "rosemary",
+        "sage", "marjoram", "oats", "rye", "barley", "quinoa", "amaranth", "buckwheat", "spelt", "flaxseed",
+        "chia seeds", "pumpkin seeds", "sunflower seeds", "beet pulp", "hibiscus flowers", "mulberry leaves",
+        "mulberries", "grape leaves", "grape vines", "cactus pads", "cactus flowers", "prickly pear cactus",
+        "opuntia pads", "opuntia flowers"
+      ]
     }
-
   ]
 }
