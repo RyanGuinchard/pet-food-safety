@@ -2,6 +2,8 @@
 import "../App.css";
 import { useState, useEffect } from 'react';
 import Pets from "../data/pets.json";
+import FoodInput from './FoodInput';
+import FoodDisplay from './FoodDisplay';
 
 // Define the PetDropdown functional component
 const PetDropdown = () => {
@@ -39,8 +41,8 @@ const PetDropdown = () => {
           </option>
         ))}
       </select>
-      {/* Display the selected pet's name */}
-      <p>Selected Pet: {selectedPetName}</p>
+      <FoodInput selectedPetId={selectedPetId} />
+      <FoodDisplay selectedPetId={selectedPetId} />
     </>
   );
 };

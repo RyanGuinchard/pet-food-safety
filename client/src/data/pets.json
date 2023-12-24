@@ -5,7 +5,7 @@
       "name": "Dog",
       "diet": "Omnivore",
       "unsafeFoods": ["chocolate", "grapes", "onions"],
-      "safeFoods": ["chicken", "carrots", "apples"]
+      "safeFoods": ["Chicken", "carrots", "apples"]
     },
 
     {
