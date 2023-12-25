@@ -1,4 +1,29 @@
-/* App.css */
+:root {
+  --primary-0: #008080;
+  --primary-10: #116565;
+  --primary-20: #154c4c;
+  --primary-30: #143433;
+  --primary-40: #101d1d;
+
+  --accent-0: #400080;
+  --accent-10: #350765;
+  --accent-20: #2b0b4c;
+  --accent-30: #200c34;
+  --accent-40: #16061e;
+
+  --danger: #b41c2b;
+  --success: #009f42;
+  --warning: #cc8800;
+  --info: #388cfa;
+
+  --neutral-0: #ffffff;
+  --neutral-10: #c6c6c6;
+  --neutral-20: #919191;
+  --neutral-30: #5e5e5e;
+  --neutral-40: #303030;
+  --neutral-50: #000000;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -16,14 +41,16 @@ body {
   flex-direction: column;
   margin: 20px;
   padding: 20px;
-  border: 2px solid #ccc;
+  border: 2px solid var(--neutral-40);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: var(--neutral-0);
 }
 
 label {
   font-size: 16px;
   margin-bottom: 8px;
+  color: var(--neutral-40);
 }
 
 input,
@@ -32,9 +59,26 @@ select {
   padding: 10px;
   font-size: 16px;
   margin-bottom: 16px;
+  border: 1px solid var(--neutral-10);
+}
+
+button {
+  background-color: var(--primary-0);
+  color: var(--neutral-0);
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  margin-top: 16px;
+}
+
+button:hover {
+  background-color: var(--primary-10);
 }
 
 p {
   font-size: 18px;
   margin-top: 16px;
+  color: var(--primary-40);
 }

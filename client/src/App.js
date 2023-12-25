@@ -19,7 +19,7 @@ function App() {
     <>
       <div className={`container ${darkMode ? 'dark-mode' : ''}`}>
         <h1>Safe Snacks For Special Pets</h1>
-        <PetDropdown />
+        <PetDropdown darkMode={darkMode} />
         <button onClick={toggleDarkMode}>
           {darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
         </button>

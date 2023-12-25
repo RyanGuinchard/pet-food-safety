@@ -3,7 +3,7 @@ import React from 'react';
 import Pets from '../data/pets.json';
 
 // Component for displaying information about pet food safety
-const FoodDisplay = ({ selectedPetId, foodInput }) => {
+const FoodDisplay = ({ selectedPetId, foodInput, darkMode }) => {
   // Find the selected pet based on ID
   const selectedPet = Pets.pets.find((pet) => pet.id === parseInt(selectedPetId, 10));
 
@@ -28,7 +28,7 @@ const FoodDisplay = ({ selectedPetId, foodInput }) => {
   }
 
   // JSX rendering of the FoodDisplay component
-  return <p>{result}</p>;
+  return <p className={darkMode ? 'dark-mode' : ''}>{result}</p>;
 };
 
 // Export the FoodDisplay component as the default export

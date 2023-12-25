@@ -1,16 +1,60 @@
-/*Learning to use css variables*/
 :root {
-    --background-color: #1a1a1a;
-    --text-color: #ffffff;
+    --primary-0: #008080;
+    --primary-10: #116565;
+    --primary-20: #154c4c;
+    --primary-30: #143433;
+    --primary-40: #101d1d;
+  
+    --accent-0: #400080;
+    --accent-10: #350765;
+    --accent-20: #2b0b4c;
+    --accent-30: #200c34;
+    --accent-40: #16061e;
+  
+    --danger: #b41c2b;
+    --success: #009f42;
+    --warning: #cc8800;
+    --info: #388cfa;
+  
+    --neutral-0: #ffffff;
+    --neutral-10: #c6c6c6;
+    --neutral-20: #919191;
+    --neutral-30: #5e5e5e;
+    --neutral-40: #303030;
+    --neutral-50: #000000;
   }
   
   body.dark-mode {
-    background-color: var(--background-color);
-    color: var(--text-color);
+    background-color: var(--neutral-50);
+    color: var(--neutral-10);
   }
   
-  .container {
-    border: 2px solid var(--text-color);
-    padding: 20px;
+  .container.dark-mode {
+    border: 2px solid var(--neutral-20);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    background-color: var(--neutral-40);
+  }
+
+  .container.dark-mode label {
+    color: var(--neutral-20);
+  }
+  
+  
+  input.dark-mode,
+  select.dark-mode {
+    border: 1px solid var(--neutral-30);
+  }
+  
+  button.dark-mode {
+    background-color: var(--primary-0);
+    color: var(--neutral-0);
+  }
+  
+  button.dark-mode:hover {
+    background-color: var(--primary-10);
+  }
+  
+  p.dark-mode {
+    color: var(--neutral-10);
   }
   

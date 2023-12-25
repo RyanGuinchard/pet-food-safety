@@ -6,7 +6,7 @@ import FoodInput from './FoodInput';
 import FoodDisplay from './FoodDisplay';
 
 // PetDropdown component for selecting a pet and displaying related information
-const PetDropdown = () => {
+const PetDropdown = ({ darkMode }) => {
   // State hooks for selected pet ID, pet names, and selected pet name
   const [selectedPetId, setSelectedPetId] = useState('');
   const [petNames, setPetNames] = useState([]);
@@ -38,8 +38,8 @@ const PetDropdown = () => {
         ))}
       </select>
       {/* Components for handling food input and display */}
-      <FoodInput selectedPetId={selectedPetId} />
-      <FoodDisplay selectedPetId={selectedPetId} />
+      <FoodInput selectedPetId={selectedPetId} darkMode={darkMode} />
+      <FoodDisplay selectedPetId={selectedPetId} darkMode={darkMode} />
     </>
   );
 };

@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import FoodDisplay from './FoodDisplay';
 
 // Functional component for handling food input
-const FoodInput = ({ selectedPetId }) => {
+const FoodInput = ({ selectedPetId, darkMode }) => {
   // State hook for tracking food input
   const [foodInput, setFoodInput] = useState('');
 
@@ -19,7 +19,7 @@ const FoodInput = ({ selectedPetId }) => {
       <label htmlFor="FoodInput">Enter a food:</label>
       <input type="text" id="FoodInput" value={foodInput} onChange={handleFoodInputChange} />
       {/* Display component for showing related information */}
-      <FoodDisplay selectedPetId={selectedPetId} foodInput={foodInput} />
+      <FoodDisplay selectedPetId={selectedPetId} foodInput={foodInput} darkMode={darkMode} />
     </>
   );
 };
