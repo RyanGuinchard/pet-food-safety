@@ -10,8 +10,12 @@ const PetDropdown = ({ darkMode }) => {
   // State hooks for selected pet ID, pet names, and selected pet name
   const [selectedPetId, setSelectedPetId] = useState('');
   const [petNames, setPetNames] = useState([]);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   const [selectedPetName, setSelectedPetName] = useState('');
+
+// eslint-disable-next-line no-unused-vars
+const _ = selectedPetName;
+
+
 
   // Initialize pet names when the component mounts
   useEffect(() => {
