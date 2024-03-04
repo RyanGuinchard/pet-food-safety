@@ -71,6 +71,25 @@ p {
   color: var(--primary-40);
 }
 
+ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-right: 10px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+ul li:last-child {
+  margin-right: 0;
+}
+
+
 .toggleContainer {
   position: fixed;
   top: 30px;

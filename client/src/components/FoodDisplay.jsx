@@ -20,9 +20,19 @@ const FoodDisplay = ({ selectedPetId, foodInput, darkMode }) => {
   // Determine and display the result based on food safety
   let result = '';
   if (safeFoods.includes(lowercaseInput)) {
-    result = `${foodInput} is safe for ${selectedPet.name}s.`;
+    // Adjust the grammar here based on whether the food item is plural or singular
+    if (foodInput.toLowerCase().endsWith('s')) {
+      result = `${foodInput} are safe for ${selectedPet.name}s.`;
+    } else {
+      result = `${foodInput} is safe for ${selectedPet.name}s.`;
+    }
   } else if (unsafeFoods.includes(lowercaseInput)) {
-    result = `${foodInput} is not safe for ${selectedPet.name}s.`;
+    // Adjust the grammar here based on whether the food item is plural or singular
+    if (foodInput.toLowerCase().endsWith('s')) {
+      result = `${foodInput} are not safe for ${selectedPet.name}s.`;
+    } else {
+      result = `${foodInput} is not safe for ${selectedPet.name}s.`;
+    }
   } else {
     result = `No information available for ${foodInput}.`;
   }
